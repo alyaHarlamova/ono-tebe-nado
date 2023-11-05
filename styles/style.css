@@ -1,21 +1,3 @@
-@font-face {
-    font-family: "Raleway-Regular";
-    src: local("Raleway-Regular"),
-      local("Raleway-Regular"),
-      url("Raleway-Regular.woff2") format("woff2"),
-      url("Raleway-Regular.woff") format("woff");
-    font-weight: normal;
-  }
-  
-  @font-face {
-    font-family: "Raleway-Bold";
-    src: local("Raleway-Bold"),
-      local("Raleway-Bold"),
-      url("Raleway-Bold.woff2") format("woff2"),
-      url("Raleway-Bold.woff") format("woff");
-    font-weight: bold;
-  }
-
   html {
     height: 100%;
     margin: 0;
@@ -41,7 +23,7 @@
     width: 33.3%;
   }
   
-  .header__link {
+  .header__menu-link {
     text-underline-position: under;
   }
   
@@ -59,7 +41,7 @@
     list-style: none;
   }
   
-  .header__link_active {
+  .header__menu-link_active {
     text-decoration: none;
   }
   
@@ -77,6 +59,10 @@
   .header__address {
     padding-left: 15.5%;
   }
+
+  .header__address-no-link {
+    text-decoration: none; 
+  } 
 
   .address {
     flex: 0 0 auto;
@@ -303,7 +289,11 @@
   .footer__address {
     padding-right: 15.5%;
   }
-  
+
+  .footer__address-no-link {
+    text-decoration: none; 
+  } 
+
   .footer__menu {
     flex: 0 0 auto;
     width: auto;
