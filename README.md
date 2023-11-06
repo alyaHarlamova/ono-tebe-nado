@@ -4,5 +4,4 @@
 [# ono-tebe-nado](https://github.com/alyaHarlamova/ono-tebe-nado.git)https://github.com/alyaHarlamova/ono-tebe-nado.git
 
 ## Change log
-Внессены исправления и файлы fonts/global.css, fonts/style.css, index.html в части форматирования.
-Также исправлены замечания по коду
+Внессены исправления в файл fonts/style.css - исправлены замечания по коду
